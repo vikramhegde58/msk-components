@@ -1,15 +1,31 @@
 import propertyTypes from '@global-config/propertyTypes'
 
 const properties = {
-  paragraphs: [
-    {
-      name: 'Introduction Text',
-      description: '',
-      type: propertyTypes.STRING,
-      value: 'Ever since childhood, I always loved computers and how software defines the experiences one can have with it. With the breakthrough of the internet in the late 90s, it became clear that the future of humanity is going to revolve around computing systems of different form factors.',
-      required: true
-    }
-  ]
+  headlineText: {
+    name: 'Headline text',
+    type: propertyTypes.STRING_MULTI_LINE,
+    value: 'Introduction',
+    required: true
+  },
+  paragraphs: {
+    name: 'Paragraph',
+    type: propertyTypes.ARRAY,
+    value: [
+      {
+        name: 'Paragraph text',
+        type: propertyTypes.RICH_TEXT,
+        value: 'Ever since childhood, I always loved computers and how software defines the experiences one can have with it.',
+        required: true
+      },
+      {
+        name: 'Paragraph text',
+        type: propertyTypes.RICH_TEXT,
+        value: 'I will continue to work in CS',
+        required: true
+      }
+    ],
+    required: true
+  }
 };
 
 export default properties;

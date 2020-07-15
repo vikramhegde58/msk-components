@@ -1,14 +1,26 @@
 import React from 'react'
 
-const Basic = ({ paragraphs }) => {
-  return (
-    <div>
-      {
-        paragraphs.map((paragraph) => {
-          return <div >
-            <h1>Single column basic</h1>
-            <p>{paragraph.value}</p>
+const useStyles = (theme) => ({
+  root: {
+    backgroundColor: 'white',
+    padding: 20
+  }
+})
 
+const Basic = (
+  {
+    headlineText,
+    paragraphs
+  }
+) => {
+  const styles = useStyles()
+  return (
+    <div style={styles.root}>
+      <h2 > {headlineText.value}</h2>
+      {
+        paragraphs.value.map((paragraph) => {
+          return <div >
+            <p >{paragraph.value}</p>
           </div>
         })
       }

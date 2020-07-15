@@ -1,4 +1,5 @@
 import Introduction from './introduction'
+import Cover from './cover'
 // import Banner from './secondary/banner'
 // import Achievements from './secondary/achievements'
 // import Contact from './secondary/contact'
@@ -10,6 +11,7 @@ import Introduction from './introduction'
 
 export const secondary = {
   Introduction,
+  Cover
   // Banner,
   // Achievements,
   // Contact,
