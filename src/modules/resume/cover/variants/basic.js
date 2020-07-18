@@ -61,12 +61,12 @@ const Basic = (
           <h4 style={styles.company}>{company.value}</h4>
 
           <div style={styles.contactDetails} >
-            <div>
+            {emailId.value && <div>
               <span style={styles.contactDetailsItemLabel}>Email: </span><span style={styles.emailId}>{emailId.value}</span>
-            </div>
-            <div>
+            </div>}
+            {phoneNo.value && <div>
               <span style={styles.contactDetailsItemLabel}>Ph: </span><span style={styles.phoneNo}>{phoneNo.value}</span>
-            </div>
+            </div>}
           </div>
 
         </div>

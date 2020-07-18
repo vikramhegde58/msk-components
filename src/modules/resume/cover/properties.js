@@ -1,8 +1,9 @@
 import propertyTypes from '@global-config/propertyTypes'
 
 const theme = {
+  key: 'skyBlue',
   name: "Sky blue",
-  color: 'rgb(70.9%, 83.1%, 87.8%)',
+  color: 'rgb(60.1%, 80.5%, 100%)',
   contrast: 'black'
 }
 
@@ -16,25 +17,25 @@ const properties = {
   name: {
     name: 'Name',
     type: propertyTypes.STRING,
-    value: 'Manoj Satishkumar',
+    value: 'John Doe',
     required: true
   },
   designation: {
     name: 'Designation',
     type: propertyTypes.STRING,
-    value: 'Senior software engineer',
+    value: 'Software engineer',
     required: false
   },
   company: {
     name: 'Company',
     type: propertyTypes.STRING,
-    value: 'Walmart',
+    value: 'Microsoft',
     required: false
   },
   emailId: {
     name: 'Email ID',
     type: propertyTypes.EMAIL,
-    value: 'manoj.satishkumar@xyz.com',
+    value: 'John.Doe@xyz.com',
     required: true
   },
   phoneNo: {

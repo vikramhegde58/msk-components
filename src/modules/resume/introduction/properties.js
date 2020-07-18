@@ -3,7 +3,7 @@ import propertyTypes from '@global-config/propertyTypes'
 const properties = {
   headlineText: {
     name: 'Headline text',
-    type: propertyTypes.STRING_MULTI_LINE,
+    type: propertyTypes.STRING,
     value: 'Introduction',
     required: true
   },
@@ -14,13 +14,13 @@ const properties = {
       {
         name: 'Paragraph text',
         type: propertyTypes.RICH_TEXT,
-        value: 'Ever since childhood, I always loved computers and how software defines the experiences one can have with it.',
+        value: 'I am currently working as a Software engineer @Microsoft. I take care of Office 365 web applications and lead the O365 team',
         required: true
       },
       {
         name: 'Paragraph text',
         type: propertyTypes.RICH_TEXT,
-        value: 'I will continue to work in CS',
+        value: 'I am focused in React.js and have chosen Javascript as my career path',
         required: true
       }
     ],
