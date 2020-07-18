@@ -2,7 +2,8 @@ import React from 'react'
 
 const useStyles = (theme) => ({
   root: {
-
+    backgroundColor: 'white',
+    padding: 20
   }
 })
 
