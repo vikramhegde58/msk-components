@@ -3,6 +3,12 @@ import React from 'react'
 const useStyles = (theme) => ({
   root: {
     padding: 20
+  },
+  headlineText: {
+    margin: 0
+  },
+  paragraph: {
+    margin: 0
   }
 })
 
@@ -20,11 +26,12 @@ const Basic = (
       backgroundColor: theme.value.color,
       color: theme.value.contrast
     }}>
-      <h2>{headlineText.value}</h2>
+      <h1 style={styles.headlineText}>{headlineText.value}</h1>
+      <hr />
       {
         paragraphs.value.map((paragraph) => {
           return <div >
-            <p>{paragraph.value}</p>
+            <p style={styles.paragraph} >{paragraph.value}</p>
           </div>
         })
       }

@@ -20,16 +20,11 @@ const properties = {
     value: [
       {
         name: 'Paragraph text',
-        type: propertyTypes.RICH_TEXT,
-        value: 'I am currently working as a Software engineer @Microsoft. I take care of Office 365 web applications and lead the O365 team',
+        type: propertyTypes.STRING_MULTI_LINE,
+        // value: 'I am currently working as a Software engineer @Microsoft. I take care of Office 365 web applications and lead the team.',
+        value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
         required: true
       },
-      {
-        name: 'Paragraph text',
-        type: propertyTypes.RICH_TEXT,
-        value: 'I am focused in React.js and have chosen Javascript as my career path',
-        required: true
-      }
     ],
     required: true
   }

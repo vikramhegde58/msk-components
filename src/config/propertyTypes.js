@@ -11,4 +11,5 @@ export default {
   URL: "URL",
   EMAIL: "EMAIL",
   THEME: "THEME",
+  OBJECT: 'OBJECT'
 }

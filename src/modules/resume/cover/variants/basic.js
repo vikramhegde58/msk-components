@@ -13,7 +13,9 @@ const useStyles = () => ({
     textAlign: 'left'
   },
   name: {
-    margin: 0
+    margin: 0,
+    fontSize: 40,
+    fontWeight: 'bold'
   },
   designation: {
     margin: 0
@@ -56,7 +58,7 @@ const Basic = (
         }}
       >
         <div style={styles.detailsWrapper}>
-          <h1 style={styles.name} >{name.value}</h1>
+          <div style={styles.name} >{name.value}</div>
           <h3 style={styles.designation}>{designation.value}</h3>
           <h4 style={styles.company}>{company.value}</h4>
 

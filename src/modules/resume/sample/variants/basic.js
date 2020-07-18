@@ -3,7 +3,10 @@ import React from 'react'
 const useStyles = (theme) => ({
   root: {
     padding: 20
-  }
+  },
+  headlineText: {
+    margin: 0
+  },
 })
 
 const Basic = (
