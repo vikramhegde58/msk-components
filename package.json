@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sh build.sh"
+    "build": "sh build.sh",
+    "push": "sh push.sh"
   },
   "repository": {
     "type": "git",

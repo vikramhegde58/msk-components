@@ -31,6 +31,7 @@ const Basic = (
       {
         paragraphs.value.map((paragraph) => {
           return <div >
+            <br />
             <p style={styles.paragraph} >{paragraph.value}</p>
           </div>
         })
