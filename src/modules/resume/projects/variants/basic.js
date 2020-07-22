@@ -9,7 +9,8 @@ const useStyles = (theme) => ({
     margin: 0
   },
   projectItem: {
-    margin: 0
+    margin: 0,
+    display: "inline-block"
   }
 })
 
@@ -34,9 +35,9 @@ const Basic = (
         <span>
           <br />
           <a target="_blank" style={{ color: theme.value.contrast }} href={projectDetails.url.value}>
-            <span style={styles.projectItem}>
+            <div style={styles.projectItem}>
               See project
-             </span>
+             </div>
           </a>
           <br />
         </span>
