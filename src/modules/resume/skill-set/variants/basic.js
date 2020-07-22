@@ -4,7 +4,10 @@ const useStyles = (theme) => ({
   root: {
     backgroundColor: 'white',
     padding: 20
-  }
+  },
+  headlineText: {
+    margin: 0
+  },
 })
 
 const Basic = (
@@ -15,8 +18,7 @@ const Basic = (
   const styles = useStyles()
   return (
     <div style={styles.root}>
-      <h2>{headlineText.value}</h2>
-
+      <h1 style={styles.headlineText} >{headlineText.value}</h1>
     </div>
   );
 };

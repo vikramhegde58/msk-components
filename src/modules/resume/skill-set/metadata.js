@@ -1,6 +1,6 @@
 
 const metadata = {
-  id: "skill-set",
+  id: 'resume-skill-set',
   name: "Skill set",
   description: ""
 }

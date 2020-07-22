@@ -26,7 +26,7 @@ const Basic = (
 
   function renderExperience(experienceDetails) {
     return <div >
-      <h2 style={styles.experienceItem}>{experienceDetails.title.value}</h2>
+      <h2 style={styles.experienceItem}>{experienceDetails.designation.value}</h2>
       <h4 style={styles.experienceItem}>
         {experienceDetails.company.value} | {experienceDetails.employmentType.value}
       </h4>

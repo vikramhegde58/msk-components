@@ -1,6 +1,6 @@
 
 const metadata = {
-  id: "cover",
+  id: 'resume-cover',
   name: "Cover",
   description: "A cover pic with high level details",
 }

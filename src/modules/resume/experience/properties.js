@@ -24,34 +24,33 @@ const properties = {
         required: true,
         value: {
           type: propertyTypes.OBJECT,
-          title: {
-            name: 'Title',
+          designation: {
+            name: 'Designation',
             type: propertyTypes.STRING,
-            value: 'Software engineer',
+            value: 'Designation',
             required: true
           },
           company: {
             name: 'Company',
             type: propertyTypes.STRING,
-            value: 'Microsoft',
+            value: 'Company',
             required: true
           },
           employmentType: {
             name: 'Employment Type',
             type: propertyTypes.STRING,
-            value: 'Full-time',
+            value: 'Employment Type',
             required: true
           },
           location: {
             name: 'Location',
             type: propertyTypes.STRING,
-            value: 'Bangalore, India',
+            value: 'Location',
             required: true
           },
           description: {
             name: 'Description',
             type: propertyTypes.STRING_MULTI_LINE,
-            // value: 'I worked on developing Office 365 products and raised annual revenue by $2M. I also train different teams and execute product demo sessions',
             value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             required: false
           }

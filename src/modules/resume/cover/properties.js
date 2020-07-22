@@ -5,7 +5,7 @@ const properties = {
   theme: {
     name: 'Theme',
     type: propertyTypes.THEME,
-    value: themes.light.skyBlue,
+    value: themes.dark.shadowPurple,
     required: true
   },
   name: {

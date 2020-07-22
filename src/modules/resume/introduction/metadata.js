@@ -1,6 +1,6 @@
 
 const metadata = {
-  id: "introduction",
+  id: 'resume-introduction',
   name: "Introduction",
   description: "A quick introduction about you",
 }
