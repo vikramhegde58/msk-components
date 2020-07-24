@@ -1,5 +1,5 @@
-import propertyTypes from '@global-config/propertyTypes'
-import themes from '@msk-themes'
+import propertyTypes from 'msk-property-types'
+import themes from 'msk-themes'
 
 const properties = {
   theme: {
@@ -11,25 +11,31 @@ const properties = {
   name: {
     name: 'Name',
     type: propertyTypes.STRING,
-    value: 'John Doe',
+    value: 'Name',
     required: true
+  },
+  imageUrl: {
+    name: 'Image URL',
+    type: propertyTypes.STRING,
+    value: 'https://mskdocuments.com/images/favicon.png',
+    required: false
   },
   designation: {
     name: 'Designation',
     type: propertyTypes.STRING,
-    value: 'Software engineer',
+    value: 'Designation',
     required: false
   },
   company: {
     name: 'Company',
     type: propertyTypes.STRING,
-    value: 'Microsoft',
+    value: 'Company name',
     required: false
   },
   emailId: {
     name: 'Email ID',
     type: propertyTypes.EMAIL,
-    value: 'John.Doe@xyz.com',
+    value: 'Email ID',
     required: true
   },
   phoneNo: {

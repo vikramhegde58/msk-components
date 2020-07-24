@@ -1,6 +1,6 @@
-import propertyTypes from '@global-config/propertyTypes'
+import propertyTypes from 'msk-property-types'
 
-import themes from '@msk-themes'
+import themes from 'msk-themes'
 
 const properties = {
   theme: {

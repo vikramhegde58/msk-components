@@ -23,5 +23,8 @@
     "webpack-node-externals": "^2.3.0",
     "wrapper-webpack-plugin": "^2.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "msk-property-types": "^1.0.0",
+    "msk-themes": "^1.0.3"
+  }
 }

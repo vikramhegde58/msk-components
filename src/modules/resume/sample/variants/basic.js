@@ -9,7 +9,7 @@ const useStyles = (theme) => ({
   },
 })
 
-const Basic = (
+export default (
   {
     headlineText
   }
@@ -26,5 +26,3 @@ const Basic = (
     </div>
   );
 };
-
-export default Basic;

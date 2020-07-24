@@ -1,16 +1,23 @@
 import React from 'react'
-
 const useStyles = () => ({
   root: {
     display: 'flex'
   },
   coverDiv: {
-    paddingTop: 40,
     width: '100%'
   },
   detailsWrapper: {
     padding: 20,
-    textAlign: 'left'
+    textAlign: 'left',
+    display: 'inline-block'
+  },
+  avatarWrapper: {
+    padding: 20,
+    display: 'inline-block'
+  },
+  avatarImage: {
+    width: 200,
+    borderRadius: '50%',
   },
   name: {
     margin: 0,
@@ -37,14 +44,15 @@ const useStyles = () => ({
   }
 })
 
-const Basic = (
+export default (
   {
     theme,
     name,
     designation,
     company,
     emailId,
-    phoneNo
+    phoneNo,
+    imageUrl
   }
 ) => {
   const styles = useStyles()
@@ -57,6 +65,14 @@ const Basic = (
           color: theme.value.contrast
         }}
       >
+        <div style={styles.avatarWrapper}>
+          <img style={{
+            ...styles.avatarImage,
+            border: `5px solid ${theme.value.contrast}`
+          }} src={imageUrl.value} />
+        </div>
+
+
         <div style={styles.detailsWrapper}>
           <div style={styles.name} >{name.value}</div>
           <h3 style={styles.designation}>{designation.value}</h3>
@@ -73,13 +89,10 @@ const Basic = (
 
         </div>
 
-        <div style={{ flex: 1 }} />
+
 
       </div>
-
 
     </div >
   );
 };
-
-export default Basic;

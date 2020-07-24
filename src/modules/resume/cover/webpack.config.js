@@ -47,7 +47,6 @@ module.exports = {
     extensions: ['.js', '.jsx', '.json'],
     alias: {
       "@global-config": path.resolve(__dirname, '../../../config'),
-      '@msk-themes': 'msk-themes',
     },
   },
 };
