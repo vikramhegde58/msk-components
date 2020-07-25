@@ -1,5 +1,4 @@
 import propertyTypes from 'msk-property-types'
-
 import themes from 'msk-themes'
 
 const properties = {
