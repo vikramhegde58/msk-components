@@ -68,11 +68,11 @@ const Basic = (
                     ...styles.skill,
                     backgroundColor: theme.value.color,
                     color: theme.value.contrast
-                }} >{skill.value.name}
+                }} >{skill.name.value}
                 </div>
                 <br />
                 {
-                getStars(skill.value.rating)
+                getStars(skill.rating.value)
                 }
             </div>
           })

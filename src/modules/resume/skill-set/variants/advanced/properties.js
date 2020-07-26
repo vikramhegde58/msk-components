@@ -21,30 +21,54 @@ const properties = {
       {
         name: 'Skill',
         type: propertyTypes.OBJECT,
-        value: {
-            name: 'Skill 1',
-            rating: 1.5
+        required: true,
+        name: {
+          name: 'Skill',
+          type: propertyTypes.STRING,
+          value: 'Skill 1',
+          required: true
         },
-        required: true
+        rating: {
+          name: 'rating',
+          type: propertyTypes.NUMBER,
+          value: 1.5,
+          required: true
+        }
       },
       {
         name: 'Skill',
         type: propertyTypes.OBJECT,
-        value: {
-            name: 'Skill 2',
-            rating: 4
+        required: true,
+        name: {
+          name: 'Skill',
+          type: propertyTypes.STRING,
+          value: 'Skill 2',
+          required: true
         },
-        required: true
+        rating: {
+          name: 'rating',
+          type: propertyTypes.NUMBER,
+          value: 4,
+          required: true
+        }
       },
       {
         name: 'Skill',
         type: propertyTypes.OBJECT,
-        value: {
-            name: 'Skill 3',
-            rating: 5
+        required: true,
+        name: {
+          name: 'Skill',
+          type: propertyTypes.STRING,
+          value: 'Skill 3',
+          required: true
         },
-        required: true
-      },
+        rating: {
+          name: 'rating',
+          type: propertyTypes.NUMBER,
+          value: 5,
+          required: true
+        }
+      }
     ],
     required: true
   }
