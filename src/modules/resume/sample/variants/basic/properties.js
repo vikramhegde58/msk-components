@@ -59,7 +59,32 @@ const properties = {
         required: true
       },
     ]
-  }
+  },
+  sampleObject: {
+    name: 'SampleObject',
+    type: propertyTypes.OBJECT,
+    required: true,
+    value: {
+      name: 'Property Name',
+      type: propertyTypes.OBJECT,
+      required: true,
+      value: {
+        type: propertyTypes.OBJECT,
+        propertyName1: {
+          name: 'Property Name 1',
+          type: propertyTypes.STRING,
+          value: 'Lorem ipsum dolor',
+          required: true
+        },
+        propertyName2: {
+          name: 'Property Name 2',
+          type: propertyTypes.STRING,
+          value: 'Lorem ipsum dolor',
+          required: true
+        },
+      },
+    }
+  },
 };
 
 export default properties;
