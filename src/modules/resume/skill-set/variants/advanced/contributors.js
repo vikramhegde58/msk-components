@@ -7,3 +7,4 @@ const contributors = [
   ]
   
   export default contributors;
+  
