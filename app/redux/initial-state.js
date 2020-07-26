@@ -1,4 +1,9 @@
 
+function getFormFactor() {
+  const formFactor = localStorage.getItem('form_factor');
+  return formFactor ? formFactor : 'desktop'
+}
+
 const module = {
   selectedModule: localStorage.getItem('selected_module') == 'null' ? null : localStorage.getItem('selected_module'),
 }
@@ -10,7 +15,7 @@ const component = {
 const variant = {
   selectedVariant: localStorage.getItem('selected_variant') == 'null' ? null : localStorage.getItem('selected_variant'),
   variantState: null,
-  formFactor: 'desktop',
+  formFactor: getFormFactor(),
 }
 
 const initialState = {

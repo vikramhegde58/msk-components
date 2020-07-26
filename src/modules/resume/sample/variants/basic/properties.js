@@ -1,6 +1,6 @@
 /* 🙋‍♂️Explaination
 *************************************************************************
-This file declares all the properties that will be passed to the component
+This file declares all the properties that will be passed to the variant
 when it is rendered in the editor.
 
 'msk-property-types' | https://github.com/ManojSatishkumar/msk-property-types/blob/master/index.js
@@ -18,7 +18,7 @@ Please follow these rules if you want your component to go LIVE.
 1. Every object {} is a property.
 2. Objects can contain arrays and nested objects.
 3. A defaule 'value' should be given. If you are not sure, give the 'Lorem ipsum dolor' text.
-4. The 'required' field indicates if the property is mandatory to be filled by the user to render the component.
+4. The 'required' field indicates if the property is mandatory to be filled by the user to render the variant.
 5. DO NOT use custom colors  / hex codes  for theme.
 6. Use ONLY the property types supported in 'msk-property-types'
 7. Make sure property keys are unique.

@@ -23,14 +23,10 @@ Happy coding.
 
 import metadata from './metadata';
 import variants from './variants';
-import properties from './properties'
-import contributors from './contributors'
 
 const Sample = {
   metadata,
   variants,
-  properties,
-  contributors
 }
 
 export default Sample;

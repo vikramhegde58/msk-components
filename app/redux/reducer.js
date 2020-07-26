@@ -51,6 +51,7 @@ function reducer(state = initialState, action) {
       return newState
     }
     case SET_FORM_FACTOR: {
+      localStorage.setItem('form_factor', action.value);
       const newState = {
         ...state,
         formFactor: action.value

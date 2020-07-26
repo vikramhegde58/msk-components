@@ -1,6 +1,6 @@
 /* 🙋‍♂️Explaination
 *************************************************************************
-This is the variant of the component. 
+This is the rendering function of the variant. 
 This variant will be rendered when the user chooses a component in the 
 Components list inside the drag and drop editor.
 

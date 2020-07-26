@@ -29,8 +29,8 @@ const App = () => {
       <LayoutToolbar />
       {selectedModule && <ComponentsList components={modules[selectedModule].components} />}
       {selectedComponent && <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
-      {selectedVariant && <LayoutArea Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]}
-        properties={modules[selectedModule].components[selectedComponent].properties} />}
+      {selectedVariant && <LayoutArea
+        Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
     </div>
   )
 }

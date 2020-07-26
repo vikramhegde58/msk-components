@@ -27,7 +27,7 @@ const contributors = [
   {
     name: "Manoj Satish kumar",
     email: "88manojs@gmail.com",
-    gitHubURL: "https://manojsatishkumar.github.io/"
+    url: "https://github.com/ManojSatishkumar"
   }
 ]
 
