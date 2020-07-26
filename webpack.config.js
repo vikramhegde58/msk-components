@@ -38,6 +38,7 @@ module.exports = {
     port: '6501',
     contentBase: ['./docs'],
     historyApiFallback: true,
+    open: true
   },
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
