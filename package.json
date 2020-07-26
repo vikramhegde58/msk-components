@@ -1,26 +1,28 @@
 {
   "name": "msk-components",
   "version": "1.0.0",
-  "description": "",
+  "description": "A collection of all the components for MSK documents editor",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
-    "build": "webpack .",
-    "push": "sh push.sh",
-    "deploy": "sh deploy.sh"
+    "build": "webpack ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ManojSatishkumar/msk-components.git"
   },
-  "author": "",
+  "author": {
+    "name": "Manoj Satishkumar",
+    "email": "88manojs@gmail.com",
+    "url": "https://manojsatishkumar.github.io/",
+    "portfolio": "https://manojsatishkumar.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ManojSatishkumar/msk-components/issues"
   },
-  "homepage": "https://github.com/ManojSatishkumar/msk-components#readme",
+  "homepage": "https://mskdocuments.com/components",
   "devDependencies": {
-    "msk-themes": "^1.0.0",
     "@babel/core": "^7.10.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.10.4",
@@ -35,20 +37,21 @@
     "jest": "^26.1.0",
     "nodemon": "^2.0.4",
     "open-browser-webpack-plugin": "0.0.5",
-    "react-redux": "^7.2.0",
+    "react-redux": "^7.2.1",
     "redux": "^4.0.5",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.3.0"
   },
   "dependencies": {
+    "msk-themes": "^1.0.3",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "^4.0.0-alpha.56",
-    "plop": "^2.7.1",
+    "msk-property-types": "^1.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "webpack-node-externals": "^2.3.0"
+    "react-router-dom": "^5.2.0"
   }
 }

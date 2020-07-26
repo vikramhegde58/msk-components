@@ -1,23 +1,24 @@
-import Introduction from './introduction'
-import Cover from './cover'
-// import Banner from './secondary/banner'
-// import Achievements from './secondary/achievements'
-// import Contact from './secondary/contact'
-// import Education from './secondary/education'
-// import Experience from './secondary/experience'
-// import Hobbies from './secondary/hobbies'
-// import Projects from './secondary/projects'
-// import Skillset from './secondary/skillset'
+// Export the component in this file to display in the preview
 
-export const secondary = {
+import metadata from './metadata'
+
+import Cover from './cover'
+import Introduction from './introduction'
+import Experience from './experience'
+import Projects from './projects'
+import Skillset from './skill-set'
+
+const components = {
+  Cover,
   Introduction,
-  Cover
-  // Banner,
-  // Achievements,
-  // Contact,
-  // Education,
-  // Experience,
-  // Hobbies,
-  // Projects,
-  // Skillset
+  Experience,
+  Projects,
+  Skillset
 }
+
+const Resume = {
+  metadata,
+  components
+}
+
+export default Resume;

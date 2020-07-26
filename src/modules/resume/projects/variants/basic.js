@@ -10,7 +10,6 @@ const useStyles = (theme) => ({
   },
   projectItem: {
     margin: 0,
-    display: "inline-block"
   }
 })
 
@@ -27,7 +26,8 @@ const Basic = (
 
   function renderProject(projectDetails) {
     return <div >
-      <h2 style={styles.projectItem}>{projectDetails.name.value}</h2>
+      <h2 style={styles.projectItem}>{projectDetails.name.value}
+      </h2>
       <h4 style={styles.projectItem}>
         {projectDetails.company.value} | {projectDetails.designation.value}
       </h4>

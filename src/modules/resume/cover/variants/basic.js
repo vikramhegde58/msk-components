@@ -76,8 +76,6 @@ const Basic = (
         <div style={{ flex: 1 }} />
 
       </div>
-
-
     </div >
   );
 };

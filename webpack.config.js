@@ -42,8 +42,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.json'],
     alias: {
-      '@redux': path.resolve(__dirname, 'redux'),
-      '@global-config': path.resolve(__dirname, 'src/config'),
+      '@redux': path.resolve(__dirname, 'app/redux'),
+      '@common-components': path.resolve(__dirname, 'app/components'),
     },
   },
 };

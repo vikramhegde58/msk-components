@@ -11,7 +11,7 @@ const properties = {
   name: {
     name: 'Name',
     type: propertyTypes.STRING,
-    value: 'Name',
+    value: 'hello',
     required: true
   },
   imageUrl: {
