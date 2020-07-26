@@ -36,7 +36,7 @@ module.exports = {
   },
   devServer: {
     port: '6501',
-    contentBase: ['./public'],
+    contentBase: ['./docs'],
     historyApiFallback: true,
   },
   resolve: {
