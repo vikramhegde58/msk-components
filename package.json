@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "sh build.sh",
-    "push": "sh push.sh"
+    "start": "webpack-dev-server .",
+    "build": "webpack .",
+    "push": "sh push.sh",
+    "deploy": "sh deploy.sh"
   },
   "repository": {
     "type": "git",

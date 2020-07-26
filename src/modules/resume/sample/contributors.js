@@ -1,6 +1,7 @@
 /* 🙋‍♂️Explaination
 *************************************************************************
-This file exports all the variants of the component.
+This file exports the information of all the contributors to display them on
+mskdocuments.com as a credit for their work.
 *************************************************************************
 */
 
@@ -8,8 +9,12 @@ This file exports all the variants of the component.
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 *************************************************************************
-1. Export all the variants that are in the 'variants' folder.
-2. Missing to export the variant will result in component not showing up in the editor.
+1. Add your details to the below array so that we can show your 
+profile avatar in the https://mskdocuments.com contributors page.
+2. All 3 fields are mandatory
+3. DO NOT delete the names added earlier.
+4. DO NOT add your details if you have not contributed to this component.
+5. If your name exceeding 20 characters, consider giving a short name.
 *************************************************************************
 */
 
@@ -18,9 +23,12 @@ Please follow these rules if you want your component to go LIVE.
 Happy coding
 *************************************************************************/
 
+const contributors = [
+  {
+    name: "Manoj Satish kumar",
+    email: "88manojs@gmail.com",
+    gitHubURL: "https://manojsatishkumar.github.io/"
+  }
+]
 
-import Basic from './basic'
-
-export default {
-  Basic,
-}
+export default contributors;

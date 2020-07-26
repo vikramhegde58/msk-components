@@ -1,3 +1,37 @@
+/* 🙋‍♂️Explaination
+*************************************************************************
+This file declares all the properties that will be passed to the component
+when it is rendered in the editor.
+
+'msk-property-types' | https://github.com/ManojSatishkumar/msk-property-types/blob/master/index.js
+Declares different types of proprties supported.
+
+'msk-themes' | https://github.com/ManojSatishkumar/msk-themes/blob/master/index.js
+Declares different themes supported.
+*************************************************************************
+*/
+
+/* ✅RULES & BEST PRACTICES
+*************************************************************************
+Please follow these rules if you want your component to go LIVE.
+
+1. Every object {} is a property.
+2. Objects can contain arrays and nested objects.
+3. A defaule 'value' should be given. If you are not sure, give the 'Lorem ipsum dolor' text.
+4. The 'required' field indicates if the property is mandatory to be filled by the user to render the component.
+5. DO NOT use custom colors  / hex codes  for theme.
+6. Use ONLY the property types supported in 'msk-property-types'
+7. Make sure property keys are unique.
+8. All fields are mandatory.
+*************************************************************************
+*/
+
+/* 👨‍💻Your code starts below.
+*************************************************************************
+Happy coding.
+*************************************************************************/
+
+
 import propertyTypes from 'msk-property-types'
 import themes from 'msk-themes'
 
@@ -8,12 +42,24 @@ const properties = {
     value: themes.light.skyBlue,
     required: true
   },
-  headlineText: {
-    name: 'Headline text',
+  sampleText: {
+    name: 'Sample text',
     type: propertyTypes.STRING,
     value: 'Sample',
     required: true
   },
+  sampleArray: {
+    name: 'SampleArray',
+    type: propertyTypes.ARRAY,
+    value: [
+      {
+        name: 'Property',
+        type: propertyTypes.STRING,
+        value: 'Lorem ipsum dolor',
+        required: true
+      },
+    ]
+  }
 };
 
 export default properties;
