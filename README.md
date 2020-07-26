@@ -1,7 +1,7 @@
 ### Project Description
 A Library of all the components for MSK Documents
 
-### [DEMO](https://mskdocuments.com/components)
+### [DEMO](http://manojsatishkumar.com/msk-components/)
 
 ---
 ### Running the project

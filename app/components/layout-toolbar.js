@@ -17,7 +17,7 @@ import {
 const useStyles = makeStyles({
   root: {
     backgroundColor: 'rgb(94.1%, 94.1%, 94.1%)',
-    marginBottom: 100
+    marginBottom: 50
   },
   layoutAppBar: {
     backgroundColor: "transparent",
@@ -50,7 +50,7 @@ function LayoutToolbar({
 
 
   return <div className={classes.root} >
-       <CssBaseline />
+    <CssBaseline />
     <AppBar
       elevation={0}
       color="inherit"
@@ -58,10 +58,6 @@ function LayoutToolbar({
       variant="dense"
       className={classes.layoutAppBar}
     >
-      <Toolbar className={classes.layoutToolbar}>
-        <Flex />
-        <h3>Please select Module, Component & Variant</h3>
-        <Flex /></Toolbar>
       <Toolbar
         className={classes.layoutToolbar}>
         <Flex />
