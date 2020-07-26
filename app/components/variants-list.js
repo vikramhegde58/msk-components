@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -52,6 +52,14 @@ function VariantsList({
   const classes = useStyles();
   const dispatch = useDispatch();
 
+  const {
+    selectedVariant
+  } = useSelector((state) => {
+    return {
+      selectedVariant: state.selectedVariant
+    };
+  });
+
   function handleVariantClick(variantKey) {
     dispatch({
       type: SELECT_VARIANT,
@@ -99,11 +107,12 @@ function VariantsList({
               <ListItem
                 button
                 onClick={() => { handleVariantClick(variantKey) }}
+                selected={selectedVariant === variantKey}
               >
                 <ListItemIcon>
                   <CheckBoxOutlineBlankIcon />
                 </ListItemIcon>
-                <Typography variant="body1" >{variantKey}</Typography>
+                <Typography variant={selectedVariant === variantKey ? "colorPrimary" : "body2"}>{variantKey}</Typography>
               </ListItem>
             </React.Fragment>
           })}
