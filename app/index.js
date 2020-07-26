@@ -54,7 +54,9 @@ const App = () => {
     return contributors;
 
   }
-
+  if (selectedModule && selectedComponent && !modules[selectedModule][selectedComponent])
+    localStorage.clear();
+    
   return (
     <div>
       <ModulesList modules={modules} />
