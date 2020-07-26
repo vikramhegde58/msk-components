@@ -7,6 +7,7 @@ import LayoutArea from './components/layout-area'
 import LayoutToolbar from './components/layout-toolbar'
 import ComponentsList from './components/components-list'
 import VariantsList from './components/variants-list'
+import ContributorsList from './components/contributors-list';
 
 const App = () => {
 
@@ -23,14 +24,46 @@ const App = () => {
       selectedVariant: state.selectedVariant
     };
   });
+
+
+
+  function getContributorsList() {
+    let contributors = [];
+
+    Object.keys(modules).map((moduleKey) => {
+      const module = modules[moduleKey];
+
+      Object.keys(module.components).map((componentKey) => {
+        const component = module.components[componentKey];
+
+        Object.keys(component.variants).map((variantKey) => {
+          const variant = component.variants[variantKey];
+          contributors = contributors.concat(variant.contributors)
+        })
+
+      })
+
+    })
+
+    contributors = contributors.filter((contributor, index, self) =>
+      index === self.findIndex((t) => (
+        t.email === contributor.email
+      ))
+    )
+
+    return contributors;
+
+  }
+
   return (
     <div>
       <ModulesList modules={modules} />
-      <LayoutToolbar />
+      {selectedVariant && <LayoutToolbar />}
       {selectedModule && <ComponentsList components={modules[selectedModule].components} />}
       {selectedComponent && <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
       {selectedVariant && <LayoutArea
         Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
+      {!selectedVariant && <ContributorsList contributors={getContributorsList()} />}
     </div>
   )
 }
