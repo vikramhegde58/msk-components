@@ -7,7 +7,7 @@ import Introduction from './introduction'
 import Experience from './experience'
 import Projects from './projects'
 import Skillset from './skill-set'
-import Links from './links';
+import SocialLinks from './social-links';
 
 const components = {
   Cover,
@@ -15,7 +15,7 @@ const components = {
   Experience,
   Projects,
   Skillset,
-  Links
+  SocialLinks
 }
 
 const Resume = {

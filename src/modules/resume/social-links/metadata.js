@@ -1,6 +1,6 @@
 const metadata = {
-    id: 'links',
-    name: "Links",
+    id: 'social',
+    name: "Social Links",
   }
   
   export default metadata;

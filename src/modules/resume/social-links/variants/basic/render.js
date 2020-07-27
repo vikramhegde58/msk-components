@@ -17,6 +17,15 @@ const useStyles = (theme) => ({
     fontSize: 15,
     display: 'inline-block'
   },
+  svg: {
+    width: '32px',
+    height: '32px',
+    verticalAlign: 'middle',
+    fill: theme.value.contrast
+  },
+  anchor: {
+    marginLeft: '5px',
+  }
 })
 
 const Basic = (
@@ -41,7 +50,14 @@ const Basic = (
                 backgroundColor: theme.value.color,
                 color: theme.value.contrast
               }} >
-              <a style={{ color: theme.value.contrast }} href={link.value} target="_blank">{link.value}</a>
+              <svg viewBox={link.viewBox} style={{...styles.svg}}>
+                {
+                  link.platform.map(path => (
+                    <path d={path} />
+                  ))
+                }
+              </svg>
+              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} target="_blank">{link.value}</a>
             </div>
           })
         }
