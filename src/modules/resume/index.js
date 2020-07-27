@@ -8,6 +8,7 @@ import Experience from './experience'
 import Education from './education'
 import Projects from './projects'
 import Skillset from './skill-set'
+import Certifications from './certifications'
 
 const components = {
   Cover,
@@ -15,7 +16,8 @@ const components = {
   Experience,
   Education,
   Projects,
-  Skillset
+  Skillset,
+  Certifications
 }
 
 const Resume = {
