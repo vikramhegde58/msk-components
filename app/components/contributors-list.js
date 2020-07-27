@@ -28,8 +28,6 @@ function ContributorsList({
 
   const classes = useStyles();
 
-  console.log(contributors)
-
   return <div className={classes.root}>
     <CssBaseline />
     <Flex />
@@ -41,7 +39,7 @@ function ContributorsList({
       className={classes.contributorPaper}
       elevation={0} >
       <Typography style={{ textAlign: 'center' }} variant="h5" gutterBottom>
-        All Contributors
+        {contributors.length} Contributors
         </Typography>
       <Divider />
       <br />

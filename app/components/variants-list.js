@@ -13,6 +13,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import CheckBoxOutlineBlankIcon from '@material-ui/icons/CheckBoxOutlineBlank';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
+import PanoramaOutlinedIcon from '@material-ui/icons/PanoramaOutlined';
 
 import {
   SELECT_VARIANT,
@@ -110,7 +111,7 @@ function VariantsList({
                 selected={selectedVariant === variantKey}
               >
                 <ListItemIcon>
-                  <CheckBoxOutlineBlankIcon />
+                  <PanoramaOutlinedIcon />
                 </ListItemIcon>
                 <Typography variant={selectedVariant === variantKey ? "colorPrimary" : "body2"}>{variantKey}</Typography>
               </ListItem>
