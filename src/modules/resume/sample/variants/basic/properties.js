@@ -1,4 +1,4 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This file declares all the properties that will be passed to the variant
 when it is rendered in the editor.
@@ -11,7 +11,7 @@ Declares different themes supported.
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -31,7 +31,7 @@ Please follow these rules if you want your component to go LIVE.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding.
 *************************************************************************/

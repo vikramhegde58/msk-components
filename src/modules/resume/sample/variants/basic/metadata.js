@@ -1,10 +1,10 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This file declares the metadata for the variant
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -13,7 +13,7 @@ Please follow these rules if you want your component to go LIVE.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding.
 *************************************************************************/
