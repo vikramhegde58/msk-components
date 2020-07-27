@@ -53,7 +53,7 @@ const Basic = (
               <svg viewBox={link.viewBox} style={{...styles.svg}}>
                 {
                   link.platform.map(path => (
-                    <path d={path} />
+                    <path key={path} d={path} />
                   ))
                 }
               </svg>
