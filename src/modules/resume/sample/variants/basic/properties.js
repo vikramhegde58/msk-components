@@ -23,6 +23,11 @@ Please follow these rules if you want your component to go LIVE.
 6. Use ONLY the property types supported in 'msk-property-types'
 7. Make sure property keys are unique.
 8. All fields are mandatory.
+9. Each property {} can contain ONLY the below fields,
+ - type
+ - value
+ - name
+ - required
 *************************************************************************
 */
 
