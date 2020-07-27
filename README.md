@@ -1,10 +1,10 @@
-### Project Description
+## Project Description
 A Library of all the components for MSK Documents
 
-### [DEMO](http://manojsatishkumar.com/msk-components/)
+#### [DEMO](http://manojsatishkumar.com/msk-components/)
 
 ---
-### Running the project
+## Running the project
 Run :
 
 `npm i;`
@@ -17,10 +17,10 @@ The project will start on http://localhost:6501/
 If you want an invitation to the slack channel where all the fun is happening, send an email to mskdocumentsindia@gmail.com
 
 ---
-### Getting started guide
+## Getting started guide
 ---
 
-#### A little bit of background
+### A little bit of background
 
 If you are reading this, you are **Awesome** !
 
@@ -33,7 +33,7 @@ As an **open-source developer**, you will be contributing to this project by cre
 Please carefully read the [Mission statement](https://mskdocuments.com/about).
 
 ---
-#### What are the benefits of contributing to this project?
+### What are the benefits of contributing to this project?
 
 This is a **learning platform**. You get to work with **400+** web developers online who are contributing to this project and **upskill** yourself in web app development.
 
