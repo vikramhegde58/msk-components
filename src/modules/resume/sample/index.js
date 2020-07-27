@@ -1,4 +1,4 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This is the file where all the functions of this component are exported.
 The exported functions are then used to create a bundle of the component 
@@ -6,7 +6,7 @@ and it will be deployed to https://mskdocuments.com
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -16,7 +16,7 @@ Please follow these rules if you want your component to go LIVE.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding.
 *************************************************************************/

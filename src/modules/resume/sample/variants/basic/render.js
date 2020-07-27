@@ -1,4 +1,4 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This is the rendering function of the variant. 
 This variant will be rendered when the user chooses a component in the 
@@ -8,7 +8,7 @@ The name of the file indicates what kind of variant it is.
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 *************************************************************************
@@ -25,10 +25,11 @@ This is because it will increase the bundle size.
 and 'theme.value.contrast' for text color.
 10. When ever you want to loop an array with .map, extract it in a function inside the component.
 11. DO NOT use CSS media queries.
+12. Use only '.value' of the properties in this file.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding
 *************************************************************************/

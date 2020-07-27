@@ -1,4 +1,4 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This file declares all the properties that will be passed to the variant
 when it is rendered in the editor.
@@ -11,7 +11,7 @@ Declares different themes supported.
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -23,10 +23,15 @@ Please follow these rules if you want your component to go LIVE.
 6. Use ONLY the property types supported in 'msk-property-types'
 7. Make sure property keys are unique.
 8. All fields are mandatory.
+9. Each property {} can contain ONLY the below fields,
+ - type
+ - value
+ - name
+ - required
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding.
 *************************************************************************/
@@ -59,7 +64,32 @@ const properties = {
         required: true
       },
     ]
-  }
+  },
+  sampleObject: {
+    name: 'SampleObject',
+    type: propertyTypes.OBJECT,
+    required: true,
+    value: {
+      name: 'Property Name',
+      type: propertyTypes.OBJECT,
+      required: true,
+      value: {
+        type: propertyTypes.OBJECT,
+        propertyName1: {
+          name: 'Property Name 1',
+          type: propertyTypes.STRING,
+          value: 'Lorem ipsum dolor',
+          required: true
+        },
+        propertyName2: {
+          name: 'Property Name 2',
+          type: propertyTypes.STRING,
+          value: 'Lorem ipsum dolor',
+          required: true
+        },
+      },
+    }
+  },
 };
 
 export default properties;

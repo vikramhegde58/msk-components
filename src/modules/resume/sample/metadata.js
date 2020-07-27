@@ -1,4 +1,4 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 The metadata of the component is exported in this file.
 This metadata is then used to generate the package for this component
@@ -6,7 +6,7 @@ and then it will be deployed in https://mskdocuments.com
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 
@@ -17,7 +17,7 @@ Please follow these rules if you want your component to go LIVE.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding 👨‍💻
 *************************************************************************/

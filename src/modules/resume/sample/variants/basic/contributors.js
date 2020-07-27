@@ -1,11 +1,11 @@
-/* 🙋‍♂️Explaination
+/* 🙋‍♂️ Explaination
 *************************************************************************
 This file exports the information of all the contributors to display them on
 mskdocuments.com as a credit for their work.
 *************************************************************************
 */
 
-/* ✅RULES & BEST PRACTICES
+/* ✅ RULES & BEST PRACTICES
 *************************************************************************
 Please follow these rules if you want your component to go LIVE.
 *************************************************************************
@@ -18,7 +18,7 @@ profile avatar in the https://mskdocuments.com contributors page.
 *************************************************************************
 */
 
-/* 👨‍💻Your code starts below.
+/* 👨‍💻 Your code starts below.
 *************************************************************************
 Happy coding
 *************************************************************************/

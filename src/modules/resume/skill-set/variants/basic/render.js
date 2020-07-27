@@ -36,6 +36,7 @@ const Basic = (
         {
           skills.value.map((skill) => {
             return <div
+              key={skill.value}
               style={{
                 ...styles.skill,
                 backgroundColor: theme.value.color,

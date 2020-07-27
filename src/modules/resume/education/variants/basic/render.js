@@ -8,7 +8,7 @@ const useStyles = (theme) => ({
   headlineText: {
     margin: 0
   },
-  experienceItem: {
+  educationItem: {
     margin: 0
   }
 })
@@ -19,20 +19,20 @@ const Basic = (
   {
     theme,
     headlineText,
-    experience
+    education
   }
 ) => {
   const styles = useStyles();
 
-  function renderExperience(experienceDetails) {
+  function renderEducation(educationDetails) {
     return <div >
-      <h2 style={styles.experienceItem}>{experienceDetails.designation.value}</h2>
-      <h4 style={styles.experienceItem}>
-        {experienceDetails.company.value} | {experienceDetails.employmentType.value}
+      <h2 style={styles.educationItem}>{educationDetails.degree.value}</h2>
+      <h4 style={styles.educationItem}>{educationDetails.university.value}</h4>
+      <h4 style={styles.educationItem}>
+        {educationDetails.datesFrom.value} | {educationDetails.datesTo.value}
       </h4>
-      <h5 style={styles.experienceItem}>{experienceDetails.location.value}</h5>
       <br />
-      <p style={styles.experienceItem}>{experienceDetails.description.value}</p>
+      <p style={styles.educationItem}>{educationDetails.description.value}</p>
     </div>
   }
 
@@ -44,10 +44,10 @@ const Basic = (
     }}>
       <h1 style={styles.headlineText} >{headlineText.value}</h1>
       <hr />
-      {experience.value.map((experienceDetails, id) => {
-        return <div key={id}>
+      {education.value.map((educationDetails) => {
+        return <div>
           <br />
-          {renderExperience(experienceDetails.value)}
+          {renderEducation(educationDetails.value)}
         </div>
       })}
 
