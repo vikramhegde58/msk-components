@@ -66,7 +66,7 @@ function LayoutArea({
         <Divider />
         <br />
         {Variant.contributors.map((contributor) => {
-          return <div>
+          return <div key={contributor.email}>
             <Card style={{ backgroundColor: 'rgb(92.1%, 92.1%, 92.1%)' }} >
               <CardContent>
                 <Avatar style={{

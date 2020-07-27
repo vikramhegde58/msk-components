@@ -56,8 +56,8 @@ const Basic = (
     }}>
       <h1 style={styles.headlineText} >{headlineText.value}</h1>
       <hr />
-      {projects.value.map((projectDetails) => {
-        return <div>
+      {projects.value.map((projectDetails, id) => {
+        return <div key={id}>
           <br />
           {renderProject(projectDetails.value)}
         </div>

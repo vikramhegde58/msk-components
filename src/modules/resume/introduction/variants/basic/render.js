@@ -29,8 +29,8 @@ const Basic = (
       <h1 style={styles.headlineText}>{headlineText.value}</h1>
       <hr />
       {
-        paragraphs.value.map((paragraph) => {
-          return <div >
+        paragraphs.value.map((paragraph, id) => {
+          return <div key={id}>
             <br />
             <p style={styles.paragraph} >{paragraph.value}</p>
           </div>

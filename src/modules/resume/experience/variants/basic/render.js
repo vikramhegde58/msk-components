@@ -44,8 +44,8 @@ const Basic = (
     }}>
       <h1 style={styles.headlineText} >{headlineText.value}</h1>
       <hr />
-      {experience.value.map((experienceDetails) => {
-        return <div>
+      {experience.value.map((experienceDetails, id) => {
+        return <div key={id}>
           <br />
           {renderExperience(experienceDetails.value)}
         </div>

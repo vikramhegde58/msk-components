@@ -45,7 +45,7 @@ function ContributorsList({
       <br />
 
       {contributors.map((contributor) => {
-        return <div style={{
+        return <div key={contributor.email} style={{
           display: "inline-block",
           padding: 10
         }}>
