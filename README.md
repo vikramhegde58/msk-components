@@ -1,5 +1,5 @@
 # MSK Components
-A Library of all the components for MSK Documents
+A Library of all the components for [MSK Documents](https://mskdocuments.com)
 
 ## [DEMO](http://manojsatishkumar.com/msk-components/)
 
@@ -22,7 +22,7 @@ If you want an invitation to the slack channel where all the fun is happening, s
 
 Hello, 
 
-I am **[Manoj Satish Kumar](http://manojsatishkumar.com/)** | **Founder** of **[MSK Documents](https://mskdocuments.com)**. 
+I am **[Manoj Satish Kumar](http://manojsatishkumar.com/)** | **Founder** of **[MSK Documents](https://mskdocuments.com/about)**. 
 
 I would like to thank you for volunteering to contribute to this project. I appreciate your interest in learning web development and supporting my vision. 
 
