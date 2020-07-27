@@ -28,8 +28,8 @@ const properties = {
           value: 'Skill 1',
           required: true
         },
-        rating: {
-          name: 'rating',
+        percent: {
+          name: 'percent',
           type: propertyTypes.NUMBER,
           value: 95,
           required: true
@@ -45,8 +45,8 @@ const properties = {
           value: 'Skill 2',
           required: true
         },
-        rating: {
-          name: 'rating',
+        percent: {
+          name: 'percent',
           type: propertyTypes.NUMBER,
           value: 70,
           required: true
@@ -62,8 +62,8 @@ const properties = {
           value: 'Skill 3',
           required: true
         },
-        rating: {
-          name: 'rating',
+        percent: {
+          name: 'percent',
           type: propertyTypes.NUMBER,
           value: 40,
           required: true
@@ -79,8 +79,8 @@ const properties = {
           value: 'Skill 3',
           required: true
         },
-        rating: {
-          name: 'rating',
+        percent: {
+          name: 'percent',
           type: propertyTypes.NUMBER,
           value: 50,
           required: true

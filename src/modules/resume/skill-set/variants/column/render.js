@@ -34,12 +34,6 @@ const useStyles = (theme) => ({
   },
   percent: {
     height: '100%'
-  },
-  ratingIcon: {
-    height: 13
-  },
-  ratingContainer: {
-    paddingLeft: 5
   }
 });
 
@@ -52,6 +46,12 @@ const Column = ({ theme, headlineText, skills }) => {
       <br />
       <div style={styles.skillsContainer}>
         {skills.value.map((skill) => {
+          let percent = skill.percent.value;
+          if (percent > 100) {
+            percent = 100;
+          } else if (percent < 1) {
+            percent = 0;
+          }
           return (
             <div style={styles.skillContainer}>
               <div
@@ -70,7 +70,7 @@ const Column = ({ theme, headlineText, skills }) => {
                   style={{
                     ...styles.percent,
                     backgroundColor: theme.value.color,
-                    width: `${skill.rating.value}%`
+                    width: `${percent}%`
                   }}
                 ></div>
               </div>
