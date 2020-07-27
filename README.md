@@ -1,4 +1,4 @@
-## Project Description
+## MSK Components
 A Library of all the components for MSK Documents
 
 #### [DEMO](http://manojsatishkumar.com/msk-components/)
@@ -13,7 +13,7 @@ Run :
 The project will start on http://localhost:6501/
 
 ---
-**NOTE**
+##### NOTE
 If you want an invitation to the slack channel where all the fun is happening, send an email to mskdocumentsindia@gmail.com
 
 ---
@@ -37,9 +37,9 @@ Please carefully read the [Mission statement](https://mskdocuments.com/about).
 
 This is a **learning platform**. You get to work with **400+** web developers online who are contributing to this project and **upskill** yourself in web app development.
 
-##### Additionally,
+#### Additionally,
 
-- Your profile will be **featured** in the [product page](http://manojsatishkumar.com/msk-components/) when you contribute.
+- Your profile will be **featured** in the **[contributors page](http://manojsatishkumar.com/msk-components/)** when you contribute.
 - You get to work on a **highly scalable UI project** and can add it to your resume projects section.
 - Students can update their LinkedIn profile with the title **Open Source Contributor** at **MSK Documents**.
 - When your component goes **LIVE**, the whole world gets to know your work and use what you have created to build their documents online. You will impact the lives of many job seekers.
