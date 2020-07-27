@@ -76,7 +76,7 @@ If you are already an experience developer, you can directly goto **Step 5**.
 - A brief introduction to [React](https://reactjs.org/docs/getting-started.html)
 - Commonly used [npm commands](https://docs.npmjs.com/cli/npm)
 
-**One you are comfortable with the above basic concepts, you need to learn to use the below tools**
+**Once you are comfortable with the above basic concepts, you need to learn to use the below tools**
 
 - Basics of [Git](https://git-scm.com/) ( forking, cloning, commiting and raising pull requests )
 - Install [VS Code](https://code.visualstudio.com/) and get familiar with the code editor
