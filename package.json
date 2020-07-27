@@ -17,6 +17,13 @@
     "url": "https://github.com/ManojSatishkumar",
     "portfolio": "https://manojsatishkumar.com"
   },
+  "contributors": [
+    {
+      "name": "Bhavay Puri",
+      "email": "bhavaypuri15@gmail.com",
+      "url": "https://github.com/RisingGeek"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ManojSatishkumar/msk-components/issues"
