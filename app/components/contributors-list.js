@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Flex from '@common-components/flex'
+// import Paper from '@material-ui/core/Paper';
+import Flex from '@common-components/flex';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { Box, Divider, Container } from '@material-ui/core';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
+import { Box, Divider } from '@material-ui/core';
+// import Card from '@material-ui/core/Card';
+// import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 
@@ -49,7 +49,7 @@ function ContributorsList({
           display: "inline-block",
           padding: 10
         }}>
-          <a target="_blank" href={contributor.url} >
+          <a target="_blank" rel="noreferrer" href={contributor.url} >
             <Avatar style={{
               width: 100,
               height: 100,

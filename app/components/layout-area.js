@@ -80,7 +80,7 @@ function LayoutArea({
                 </Typography>
                 <div>{contributor.email && contributor.email}</div>
                 <br />
-                {contributor.url && <a target="_blank" href={contributor.url} >See profile</a>}
+                {contributor.url && <a target="_blank" rel="noreferrer" href={contributor.url} >See profile</a>}
 
               </CardContent>
             </Card>

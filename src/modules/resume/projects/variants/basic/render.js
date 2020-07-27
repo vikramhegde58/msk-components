@@ -34,7 +34,7 @@ const Basic = (
       {projectDetails.url.value && (
         <span>
           <br />
-          <a target="_blank" style={{ color: theme.value.contrast }} href={projectDetails.url.value}>
+          <a target="_blank" rel="noreferrer" style={{ color: theme.value.contrast }} href={projectDetails.url.value}>
             <div style={styles.projectItem}>
               See project
              </div>

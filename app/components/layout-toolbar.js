@@ -33,8 +33,7 @@ const useStyles = makeStyles({
   }
 });
 
-function LayoutToolbar({
-}) {
+function LayoutToolbar() {
   const classes = useStyles();
   const dispatch = useDispatch();
 
