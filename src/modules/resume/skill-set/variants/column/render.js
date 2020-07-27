@@ -1,6 +1,6 @@
 import React from 'react';
 
-const useStyles = (theme) => ({
+const useStyles = () => ({
   root: {
     padding: 20
   },
@@ -54,18 +54,8 @@ const Column = ({ theme, headlineText, skills }) => {
           }
           return (
             <div style={styles.skillContainer}>
-              <div
-                style={{
-                  ...styles.skill
-                }}
-              >
-                {skill.name.value}
-              </div>
-              <div
-                style={{
-                  ...styles.percentContainer
-                }}
-              >
+              <div style={styles.skill}>{skill.skillName.value}</div>
+              <div style={styles.percentContainer}>
                 <div
                   style={{
                     ...styles.percent,

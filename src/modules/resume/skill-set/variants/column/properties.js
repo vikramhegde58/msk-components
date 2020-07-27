@@ -22,7 +22,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        skillName: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 1',
@@ -39,7 +39,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        skillName: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 2',
@@ -56,7 +56,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        skillName: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 3',
@@ -73,10 +73,10 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        skillName: {
           name: 'Skill',
           type: propertyTypes.STRING,
-          value: 'Skill 3',
+          value: 'Skill 4',
           required: true
         },
         percent: {
