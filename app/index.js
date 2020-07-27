@@ -54,17 +54,17 @@ const App = () => {
     return contributors;
 
   }
-  if (selectedModule && selectedComponent && !modules[selectedModule][selectedComponent])
-    localStorage.clear();
-    
+
   return (
     <div>
       <ModulesList modules={modules} />
       {selectedVariant && <LayoutToolbar />}
       {selectedModule && <ComponentsList components={modules[selectedModule].components} />}
-      {selectedComponent && <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
-      {selectedVariant && <LayoutArea
-        Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
+      {selectedComponent && modules[selectedModule].components[selectedComponent] &&
+        <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
+      {selectedVariant && modules[selectedModule].components[selectedComponent] &&
+        modules[selectedModule].components[selectedComponent].variants[selectedVariant] &&
+        <LayoutArea Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
       {!selectedVariant && <ContributorsList contributors={getContributorsList()} />}
     </div>
   )
