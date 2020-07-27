@@ -57,7 +57,7 @@ This is a **learning platform**. You get to work with **400+** web developers on
 
 - Your profile will be **featured** in the **[contributors page](http://manojsatishkumar.com/msk-components/)** when you contribute.
 - You get to work on a **highly scalable UI project** and can add it to your resume projects section.
-- Students can update their LinkedIn profile with the title **Open Source Contributor** at **MSK Documents**.
+- Students can update their LinkedIn profile with the title **Open Source Developer** at **MSK Documents**.
 - When your component goes **LIVE**, the whole world gets to know your work and use what you have created to build their documents online. You will impact the lives of many job seekers.
 - Most importantly, you will **enjoy** the journey and will have a story to tell to your juniors.
 
@@ -76,7 +76,7 @@ If you are already an experience developer, you can directly goto **Step 5**.
 - A brief introduction to [React](https://reactjs.org/docs/getting-started.html)
 - Commonly used [npm commands](https://docs.npmjs.com/cli/npm)
 
-**One you are comfortable with the above basic concepts, you need to learn to use the below tools**
+**Once you are comfortable with the above basic concepts, you need to learn to use the below tools**
 
 - Basics of [Git](https://git-scm.com/) ( forking, cloning, commiting and raising pull requests )
 - Install [VS Code](https://code.visualstudio.com/) and get familiar with the code editor
