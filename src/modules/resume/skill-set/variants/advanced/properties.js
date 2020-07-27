@@ -22,7 +22,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        subname: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 1',
@@ -39,7 +39,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        subname: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 2',
@@ -56,7 +56,7 @@ const properties = {
         name: 'Skill',
         type: propertyTypes.OBJECT,
         required: true,
-        name: {
+        subname: {
           name: 'Skill',
           type: propertyTypes.STRING,
           value: 'Skill 3',

@@ -7,7 +7,7 @@ const useStyles = (theme) => ({
   headlineText: {
     margin: 0
   },
-  skill: {
+  link: {
     margin: 5,
     paddingLeft: 10,
     paddingRight: 10,
@@ -16,6 +16,15 @@ const useStyles = (theme) => ({
     borderRadius: 20,
     fontSize: 15,
     display: 'inline-block'
+  },
+  svg: {
+    width: '32px',
+    height: '32px',
+    verticalAlign: 'middle',
+    fill: theme.value.contrast
+  },
+  anchor: {
+    marginLeft: '5px',
   }
 })
 
@@ -23,10 +32,10 @@ const Basic = (
   {
     theme,
     headlineText,
-    skills
+    links
   }
 ) => {
-  const styles = useStyles()
+  const styles = useStyles(theme)
   return (
     <div style={styles.root}>
       <h1 style={styles.headlineText} >{headlineText.value}</h1>
@@ -34,14 +43,21 @@ const Basic = (
       <br />
       <div>
         {
-          skills.value.map((skill) => {
-            return <div
-              key={skill.value}
+          links.value.map((link) => {
+            return <div key={link.value}
               style={{
-                ...styles.skill,
+                ...styles.link,
                 backgroundColor: theme.value.color,
                 color: theme.value.contrast
-              }} >{skill.value}
+              }} >
+              <svg viewBox={link.viewBox} style={{ ...styles.svg }}>
+                {
+                  link.platform.map(path => (
+                    <path key={path} d={path} />
+                  ))
+                }
+              </svg>
+              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} target="_blank" rel="noreferrer">{link.value}</a>
             </div>
           })
         }

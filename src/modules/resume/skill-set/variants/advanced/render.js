@@ -68,7 +68,7 @@ const Basic = (
                     ...styles.skill,
                     backgroundColor: theme.value.color,
                     color: theme.value.contrast
-                }} >{skill.name.value}
+                }} >{skill.subname.value}
                 </div>
                 <br />
                 {
