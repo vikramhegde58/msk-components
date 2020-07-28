@@ -134,13 +134,18 @@ After finishing your code, you are ready to contribute. Go ahead and make a comm
 - Always submit a PR from a named branch from your fork
 - Attach Desktop & Mobile screenshots to the PR
 - Choose the label in the PR ( bug / enhancement / maintenance etc., ) 
-- Add yourself in the Assignee field
 - Add a proper title & description
 
 
 #### Step 7 : Get your code reviewed
 
 Assign few contributors as reviewers and get your code reviewed. You will need approvals from 3 other contributors for your pull request to get merged.
+
+---
+
+### Not sure what to contribute ?
+
+Check the **[issues](https://github.com/ManojSatishkumar/msk-components/issues)** section where you will find new ideas / challenges / bugs. You can pick one by adding a comment to the thread that you will be working on it. ( This will avoid duplicate work )
 
 ---
 
