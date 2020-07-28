@@ -147,7 +147,7 @@ Assign few contributors as reviewers and get your code reviewed. You will need a
 
 Check the **[issues](https://github.com/ManojSatishkumar/msk-components/issues)** section where you will find new ideas / challenges / bugs. You can pick one by adding a comment to the thread that you will be working on it. ( This will avoid duplicate work )
 
-**Please close the issue when your corresponding pull request gets mergd.**
+**Please close the issue when your corresponding pull request gets merged.**
 
 ---
 
