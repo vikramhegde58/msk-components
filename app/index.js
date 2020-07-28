@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+import { useTheme } from '@material-ui/core';
 
 import modules from '../src/modules'
 import ModulesList from './components/modules-list'
@@ -8,8 +9,14 @@ import LayoutToolbar from './components/layout-toolbar'
 import ComponentsList from './components/components-list'
 import VariantsList from './components/variants-list'
 import ContributorsList from './components/contributors-list';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
 
 const App = () => {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'), {
+    defaultMatches: true
+  });
 
   const dispatch = useDispatch();
 
