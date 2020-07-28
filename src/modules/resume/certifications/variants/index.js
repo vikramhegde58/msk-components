@@ -1,5 +1,7 @@
-import Basic from './basic/index.js';
+import Basic from './basic';
+import Compact from './compact';
 
 export default {
-  Basic
+  Basic,
+  Compact
 };
