@@ -2,9 +2,11 @@
 
 import metadata from './metadata';
 import head from './head';
+import info from './personal info';
 
 const components = {
-  head
+  head,
+  info
 };
 
 const Cover = {
