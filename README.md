@@ -129,7 +129,7 @@ Once you are familiar with the sample component, go ahead and add your own compo
 
 After finishing your code, you are ready to contribute. Go ahead and make a commit and push the changes to your fork branch. Then submit a pull request to msk-components/master.
 
-###### ✅ Pull reques rules:
+###### ✅ Pull request rules:
 - Add atleast 5 reviwers in the PR
 - Always submit a PR from a named branch from your fork
 - Attach Desktop & Mobile screenshots to the PR
