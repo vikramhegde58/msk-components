@@ -39,35 +39,38 @@ const useStyles = () => ({
 
 const Column = ({ theme, headlineText, skills }) => {
   const styles = useStyles();
+
+  const getSkills = () => {
+    return skills.value.map((skill) => {
+      let percent = skill.percent.value;
+      if (percent > 100) {
+        percent = 100;
+      } else if (percent < 1) {
+        percent = 0;
+      }
+      return (
+        <div style={styles.skillContainer}>
+          <div style={styles.skill}>{skill.skillName.value}</div>
+          <div style={styles.percentContainer}>
+            <div
+              style={{
+                ...styles.percent,
+                backgroundColor: theme.value.color,
+                width: `${percent}%`
+              }}
+            ></div>
+          </div>
+        </div>
+      );
+    });
+  };
+
   return (
     <div style={styles.root}>
       <h1 style={styles.headlineText}>{headlineText.value}</h1>
       <hr />
       <br />
-      <div style={styles.skillsContainer}>
-        {skills.value.map((skill) => {
-          let percent = skill.percent.value;
-          if (percent > 100) {
-            percent = 100;
-          } else if (percent < 1) {
-            percent = 0;
-          }
-          return (
-            <div style={styles.skillContainer}>
-              <div style={styles.skill}>{skill.skillName.value}</div>
-              <div style={styles.percentContainer}>
-                <div
-                  style={{
-                    ...styles.percent,
-                    backgroundColor: theme.value.color,
-                    width: `${percent}%`
-                  }}
-                ></div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
+      <div style={styles.skillsContainer}>{getSkills()}</div>
     </div>
   );
 };
