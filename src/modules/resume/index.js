@@ -9,6 +9,7 @@ import Education from './education'
 import Projects from './projects'
 import Skillset from './skill-set'
 import Certifications from './certifications'
+import SocialLinks from './social-links';
 
 const components = {
   Cover,
@@ -17,7 +18,8 @@ const components = {
   Education,
   Projects,
   Skillset,
-  Certifications
+  Certifications,
+  SocialLinks
 }
 
 const Resume = {
