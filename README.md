@@ -125,7 +125,7 @@ There is a folder called **[sample](https://github.com/ManojSatishkumar/msk-comp
 
 Once you are familiar with the sample component, go ahead and add your own components and variants. Reserch online and identify different components inside vaarious documents.
 
-#### Step 6 : Sumbit your pull request
+#### Step 6 : Submit your pull request
 
 After finishing your code, you are ready to contribute. Go ahead and make a commit and push the changes to your fork branch. Then submit a pull request to msk-components/master.
 
