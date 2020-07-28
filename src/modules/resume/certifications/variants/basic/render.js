@@ -31,7 +31,7 @@ const Basic = (
         {certificate.issuedDate.value} | {certificate.expirationDate.value}
       </h4>
       {certificate.url.value && (
-        <span>
+        <div>
           <br />
           <a target="_blank" rel="noreferrer" style={{ color: theme.value.contrast }} href={certificate.url.value}>
             <div style={styles.certificateItem}>
@@ -39,7 +39,7 @@ const Basic = (
              </div>
           </a>
           <br />
-        </span>
+        </div>
       )}
     </div>
   }
