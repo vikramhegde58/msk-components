@@ -57,7 +57,7 @@ const Basic = (
                   ))
                 }
               </svg>
-              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} target="_blank">{link.value}</a>
+              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} rel="noreferrer" target="_blank">{link.value}</a>
             </div>
           })
         }
