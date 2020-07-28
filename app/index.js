@@ -64,20 +64,15 @@ const App = () => {
 
   return (
     <div>
-
-      {!isMobile && <div> 
-        <ModulesList modules={modules} />
-        {selectedVariant && <LayoutToolbar />}
-        {selectedModule && <ComponentsList components={modules[selectedModule].components} />}
-        {selectedComponent && <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
-        {selectedVariant && <LayoutArea
-          Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
-      </div>}
-      {!selectedVariant && <div style={{
-        marginLeft: !isMobile && 300,
-      }}>
-        <ContributorsList contributors={getContributorsList()} />
-      </div>}
+      <ModulesList modules={modules} />
+      {selectedVariant && <LayoutToolbar />}
+      {selectedModule && <ComponentsList components={modules[selectedModule].components} />}
+      {selectedComponent && modules[selectedModule].components[selectedComponent] &&
+        <VariantsList selectedComponent={modules[selectedModule].components[selectedComponent]} />}
+      {selectedVariant && modules[selectedModule].components[selectedComponent] &&
+        modules[selectedModule].components[selectedComponent].variants[selectedVariant] &&
+        <LayoutArea Variant={modules[selectedModule].components[selectedComponent].variants[selectedVariant]} />}
+      {!selectedVariant && <ContributorsList contributors={getContributorsList()} />}
     </div>
   )
 }
