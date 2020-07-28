@@ -26,6 +26,7 @@ and 'theme.value.contrast' for text color.
 10. When ever you want to loop an array with .map, extract it in a function inside the component.
 11. DO NOT use CSS media queries.
 12. Use only '.value' of the properties in this file.
+13. DO NOT use any icons files. Use only URLs as the image "src"
 *************************************************************************
 */
 
