@@ -1,7 +1,7 @@
 {
-  "name": "msk-components",
+  "name": "msk-ui",
   "version": "1.0.0",
-  "description": "A collection of all the components for MSK documents editor",
+  "description": "A collection of all the MSK UI widgets",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server .",
