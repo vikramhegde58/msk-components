@@ -102,14 +102,12 @@ function ModulesList({
         </div>
       </List>
       <Flex />
-     
+
       <Toolbar style={{ backgroundColor: "rgb(92.1%, 92.1%, 92.1%)" }} variant="dense" >
         <Flex />
-        <a style={{ textDecoration: "none" }} target="_blank" rel="noreferrer" href="https://mskdocuments.com" >
-          <Typography style={{ color: 'black' }} variant="caption" >
-            MSK Documents
+        <Typography style={{ color: 'black' }} variant="caption" >
+          MSK UI
         </Typography>
-        </a>
 
         <Flex />
       </Toolbar>

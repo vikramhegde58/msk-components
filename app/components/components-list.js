@@ -84,8 +84,8 @@ function ComponentsList({
               <ArrowBackIcon />
             </IconButton>
             <Flex />
-            <Typography variant="h5" >
-              Components
+            <Typography style={{ marginLeft: -50 }} variant="h5" >
+              Widgets
         </Typography>
             <Flex />
           </Toolbar>
