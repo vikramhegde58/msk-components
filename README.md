@@ -45,7 +45,7 @@ Once you clone, you will have the project in your computer. Go ahead and open th
 
 Set the original repository as the upstream remote.
 
-run `git remote add upstream https://github.com/ManojSatishkumar/msk-components.git`
+run `git remote add upstream https://github.com/MSK-Documents/msk-ui.git`
 
 So, whenever other developers merge their code, the master branch of the original repository gets updated. You can get the latest code into the master branch of your fork with the below command.
 
