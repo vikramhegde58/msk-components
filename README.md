@@ -37,7 +37,7 @@ Now you are ready to start coding.
 
 #### Step 1 : Fork this repository.
 
-Once you fork, git will create a copy of msk-components to your personal github space.
+Once you fork, git will create a copy of msk-ui to your personal github space.
 
 #### Step 2 : Clone your forked repo into your local machine
 
@@ -70,11 +70,11 @@ run `npm start`. This will open the application on http://localhost:6501/
 
 There is a folder called **sample** inside the **resume** module. Go ahead and check all the files inside. There is a detailed documentation at the beginning of each file. This should give you enough explanation about the file and certain rules and best practices to be followed.
 
-Once you are familiar with the sample component, go ahead and add your own components and variants. Research online and identify different components inside vaarious documents.
+Once you are familiar with the sample widget, go ahead and add your own widgets. Research online and identify different widgets inside vaarious documents.
 
 #### Step 6 : Submit your pull request
 
-After finishing your code, you are ready to contribute. Go ahead and make a commit and push the changes to your fork branch. Then submit a pull request to msk-components/master.
+After finishing your code, you are ready to contribute. Go ahead and make a commit and push the changes to your fork branch. Then submit a pull request to msk-ui/master.
 
 ##### ✅ Pull request rules:
 - Add atleast 5 reviewers in the PR
