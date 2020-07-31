@@ -50,14 +50,14 @@ const Basic = (
                 backgroundColor: theme.value.color,
                 color: theme.value.contrast
               }} >
-              <svg viewBox={link.viewBox} style={{...styles.svg}}>
+              <svg viewBox={link.viewBox} style={{ ...styles.svg }}>
                 {
                   link.platform.map(path => (
                     <path key={path} d={path} />
                   ))
                 }
               </svg>
-              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} rel="noreferrer" target="_blank">{link.value}</a>
+              <a style={{ ...styles.anchor, color: theme.value.contrast }} href={link.value} target="_blank" rel="noreferrer">{link.value}</a>
             </div>
           })
         }

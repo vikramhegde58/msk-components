@@ -113,7 +113,7 @@ function VariantsList({
                 <ListItemIcon>
                   <PanoramaOutlinedIcon />
                 </ListItemIcon>
-                <Typography variant={selectedVariant === variantKey ? "colorPrimary" : "body2"}>{variantKey}</Typography>
+                <Typography variant="body2" color={selectedVariant === variantKey ? "primary" : "inherit"}>{variantKey}</Typography>
               </ListItem>
             </React.Fragment>
           })}
